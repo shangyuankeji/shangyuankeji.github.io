@@ -1,0 +1,42 @@
+[ 1544490767.520511]: IMSettings-Daemon[15855]: INFO: Starting imsettings-daemon...
+[ 1544490767.520598]: IMSettings-Daemon[15855]: INFO:   [HOME=/root/.config/imsettings]
+[ 1544490767.520624]: IMSettings-Daemon[15855]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1544490767.520644]: IMSettings-Daemon[15855]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1544490767.520662]: IMSettings-Daemon[15855]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1544490767.520681]: IMSettings-Daemon[15855]: INFO:   [MODULES=gsettings]
+
+imsettings information
+==========================
+XINPUTRC: /etc/X11/xinit/xinput.d//none.conf
+	  File: ‘/etc/X11/xinit/xinput.d//none.conf’
+	  Size: 110       	Blocks: 8          IO Block: 4096   regular file
+	Device: fd00h/64768d	Inode: 67866565    Links: 1
+	Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
+	Context: system_u:object_r:bin_t:s0
+	Access: 2018-12-10 14:04:27.968014841 -0500
+	Modify: 2018-10-30 15:42:37.000000000 -0400
+	Change: 2018-12-10 13:50:44.815945433 -0500
+	 Birth: -
+Is DBus enabled: yes
+Is imsettings enabled: yes
+Is GTK+ supported: yes
+Is Qt supported: no
+DESKTOP: gnome-classic
+GUESS_DESKTOP: $GDMSESSION
+DISABLE_IMSETTINGS: 
+IMSETTINGS_DISABLE_DESKTOP_CHECK: 
+DBUS_SESSION_BUS_ADDRESS: unix:abstract=/tmp/dbus-mSlwrduNVh,guid=25a9fc60f29a1641a7111b425c0f0f0f
+GTK_IM_MODULE: 
+QT_IM_MODULE: xim
+XMODIFIERS: @im=none
+IMSETTINGS_MODULE: none
+IMSETTINGS_INTEGRATE_DESKTOP: yes
+
+[ 1544490769.640970]: IMSettings-Daemon[15855]: INFO: Attempting to switch IM to none [lang=en_US.UTF-8, update=false]
+org.gnome.SettingsDaemon.Keyboard.desktop exists. imsettings is going to be disabled.
+
+[ 1544490769.802457]: IMSettings-Daemon[15855]: WARNING **: Current desktop isn't targeted by IMSettings.
+[ 1544490769.812159]: IMSettings-Daemon[15855]: INFO: Unloading imesttings module: gsettings
+[ 1544490769.812251]: IMSettings-Daemon[15855]: INFO: imsettings-daemon is shut down.
